@@ -6,14 +6,12 @@ body {
 body {
   margin: 0;
   padding: 0;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 18px;
-  font-family: "Inter", sans-serif;
-  color: #545454;
-}
-
-.body__scroll {
-  overflow-y: hidden;
+  font-family: "Cero Pro", sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 html {
@@ -90,13 +88,13 @@ a {
 }
 
 .container {
-  max-width: 1290px;
+  width: 1410px;
   margin: 0 auto;
   height: 100%;
 }
 
-.container__fluid {
-  max-width: 1600px;
-  margin: 0 auto;
+h2 {
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: 0.02em;
 }
-

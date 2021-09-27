@@ -1,0 +1,47 @@
+.thanks {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 885px;
+
+  &__rectangle {
+    width: 50%;
+    padding-top: 98px;
+    height: 633px;
+
+    .bonum {
+      height: 20px;
+    }
+  }
+
+  &__eclipse {
+    width: 411px;
+    height: 411px;
+    border-radius: 50%;
+    background-color: #d7969e;
+    filter: blur(200px);
+  }
+
+  &__blur {
+    font-size: 72px;
+    transform: rotate(90deg);
+  }
+
+
+  &__descr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__text {
+    line-height: 92px;
+  }
+
+  &__for {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+    writing-mode: vertical-lr;
+  }
+}
